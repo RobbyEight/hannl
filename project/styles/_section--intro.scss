@@ -1,0 +1,29 @@
+// _section--intro.scss
+// Put all text-related styling in here 
+
+.section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section__content, .section--intro{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.intro__text{
+    font-size: $font-size-lead;
+    line-height: $line-height-lead;
+ }

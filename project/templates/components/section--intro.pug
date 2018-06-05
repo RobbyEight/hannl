@@ -1,0 +1,14 @@
+//- @pugdoc
+  name: section--intro
+  examples:
+    - |
+      +section--intro('Met 65 voltijd-bacheloropleidingen en ruim 140 minoren krijg je als HAN-student volop de mogelijkheid om je te ontwikkelen en te groeien. Kom ook naar de Open Dag of vraag een brochure aan! De HAN geeft je de ruimte. Maak er gebruik van!')
+
+
+mixin section--intro(text)
+  .section.section--intro
+    .section-wrapper
+      .section__content
+        .intro
+          p.intro__text #{text}
+  
